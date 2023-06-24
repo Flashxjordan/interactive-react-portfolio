@@ -9,7 +9,13 @@ const Navbar = () => {
             <img src={logo} alt='logo' />
         </div>
         <div>
-
+            <ul className='flex items-center gap-10'>
+                {
+                    navLinkdata.map((navlink) => (
+                        <li key={navlink._id}> {navlink.title}</li>
+                    )) 
+                    }
+            </ul>
         </div>
     </div>
   )
