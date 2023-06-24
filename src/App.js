@@ -4,7 +4,7 @@ import Navbar from '/Users/user/Desktop/interactive-react-portfolio/src/componen
 
 function App() {
   return (
-    <div className='w-full h-auto bg-bodyColor text-white'>
+    <div className='w-full h-auto bg-[#333] text-white'>
       <div className='max-w-screen-xl mx-auto px-16'>
         <Navbar />
       </div>
