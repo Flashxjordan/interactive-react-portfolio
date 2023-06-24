@@ -1,9 +1,13 @@
 import React from 'react'
+import navbar from '/Users/user/Desktop/interactive-react-portfolio/src/components/navbar/navbar.js';
+import Navbar from '/Users/user/Desktop/interactive-react-portfolio/src/components/navbar/navbar.js';
 
 function App() {
   return (
-    <div className='App'>
-      <h1 className='text-6xl font-bold underline'> Hello world!asda </h1>
+    <div className='w-full h-auto bg-bodyColor text-white'>
+      <div className='max-w-screen-xl mx-auto px-16'>
+        <Navbar />
+      </div>
     </div>
   );
 }
